@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ff354200.chunk.css",
+    "main.js": "/static/js/main.942356f1.chunk.js",
+    "main.js.map": "/static/js/main.942356f1.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.2a6a4521.js",
+    "runtime-main.js.map": "/static/js/runtime-main.2a6a4521.js.map",
+    "static/css/2.23bc2e7b.chunk.css": "/static/css/2.23bc2e7b.chunk.css",
+    "static/js/2.bced7cdf.chunk.js": "/static/js/2.bced7cdf.chunk.js",
+    "static/js/2.bced7cdf.chunk.js.map": "/static/js/2.bced7cdf.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.e816df8e5756169bcb520a60f15d75de.js": "/precache-manifest.e816df8e5756169bcb520a60f15d75de.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.23bc2e7b.chunk.css.map": "/static/css/2.23bc2e7b.chunk.css.map",
+    "static/css/main.ff354200.chunk.css.map": "/static/css/main.ff354200.chunk.css.map",
+    "static/js/2.bced7cdf.chunk.js.LICENSE.txt": "/static/js/2.bced7cdf.chunk.js.LICENSE.txt",
+    "static/media/biohazard.svg": "/static/media/biohazard.ff349f18.svg",
+    "static/media/logo.svg": "/static/media/logo.4d9c7c17.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2a6a4521.js",
+    "static/css/2.23bc2e7b.chunk.css",
+    "static/js/2.bced7cdf.chunk.js",
+    "static/css/main.ff354200.chunk.css",
+    "static/js/main.942356f1.chunk.js"
+  ]
+}
