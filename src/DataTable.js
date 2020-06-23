@@ -54,7 +54,7 @@ export default function DataTable({
   const [order, setOrder] = useState(initialOrder);
   const [orderBy, setOrderBy] = useState(initialOrderBy);
   const [page, setPage] = useState(0);
-  const pageSizes = [10, 25, 50];
+  const pageSizes = [10, 25, 50, 100];
   const [rowsPerPage, setRowsPerPage] = useState(pageSizes[0]);
 
   const _requestSort = (event, property) => {

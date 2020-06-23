@@ -12,6 +12,7 @@ import blueGrey from '@material-ui/core/colors/blueGrey';
 import grey from '@material-ui/core/colors/grey';
 import { makeStyles } from '@material-ui/core/styles';
 
+
 import { paths } from './App';
 
 const linkColor = grey[100];
@@ -56,6 +57,12 @@ export default function SiteLinks() {
       isSiteLink: true,
       text: paths.dashboard.name,
       to: paths.dashboard.path,
+    },
+    {
+      icon: <InfoIcon className={classes.linkIcon} />,
+      isSiteLink: true,
+      text: paths.news.name,
+      to: paths.news.path,
     },
     {
       icon: <InfoIcon className={classes.linkIcon} />,

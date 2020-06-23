@@ -8,9 +8,11 @@ import NotFound from './NotFound';
 import PageTemplate from './PageTemplate';
 import useInterval from 'useInterval';
 import { getTotals } from './services';
+import News from './News'
 
 import './App.css';
 import '../node_modules/react-vis/dist/style.css';
+
 
 export const paths = {
   dashboard: {
@@ -21,6 +23,10 @@ export const paths = {
     name: 'Thế giới',
     path: '/',
   },
+  news: {
+    name: "News",
+    path:'/news'
+  }
 };
 
 function App() {
@@ -75,6 +81,11 @@ function App() {
             exact
             path={paths.map.path}
             render={(_props) => <Map totals={totals} />}
+          />
+          <Route
+            exact
+            path={paths.news.path}
+            render={(_props) => <News/>}
           />
           <Route component={NotFound} />
         </Switch>

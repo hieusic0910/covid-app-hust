@@ -32,7 +32,7 @@ const logoHeight = '24px';
 
 export const useStyles = makeStyles(theme => ({
   appBar: {
-    backgroundColor: blueGrey[900],
+    backgroundColor: blueGrey[500],
     bottom: 0,
     display: 'flex',
     justifyContent: 'center',

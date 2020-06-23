@@ -3,26 +3,25 @@ import moment from 'moment';
 
 // https://github.com/NovelCOVID/API
 export const getCountries = async () =>
-  await axios.get('https://disease.sh/v2/countries');
+  await axios.get('http://localhost:3000/countries');
 
 export const getGEOData = async () =>
-  await axios.get('https://disease.sh/v2/jhucsse');
+  await axios.get('http://localhost:3000/jhucsse');
 
 export const getTotals = async () =>
-  await axios.get('https://disease.sh/v2/all');
+  await axios.get('http://localhost:3000/all');
 
 export const getYesterdayTotals = async () =>
-  await axios.get('https://disease.sh/v2/all', {
+  await axios.get('http://localhost:3000/all', {
     params: { yesterday: true },
   });
 
 export const getHistory = async () =>
-  await axios.get('https://disease.sh/v2/historical/all', {
+  await axios.get('http://localhost:3000/historical/all', {
     params: { lastdays: 'all' },
   });
 
-export const getUSStates = async () =>
-  await axios.get('https://disease.sh/v2/states');
+
 
 // https://newsapi.org
 export const getNews = async ({ page = 1 }) => {

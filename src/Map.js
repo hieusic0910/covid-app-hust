@@ -28,9 +28,9 @@ export default function Map({ totals }) {
   const isMdBreakpoint = useMediaQuery('(min-width: 960px)');
 
   const [viewport, setViewport] = useState({
-    latitude: 30,
-    longitude: 100.5,
-    zoom: 3,
+    latitude: 21,
+    longitude: 105.8,
+    zoom: 2.5,
     bearing: 0,
     pitch: 0,
   });

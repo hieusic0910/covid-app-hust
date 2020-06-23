@@ -289,35 +289,7 @@ export default function Dashboard({ totals }) {
                   />
                 </div>
                 <HistoryChartFilters {...dateFilters} />
-                {/* 
-                TODO: Add back once I figure out a better information architecture
-                <Grid className={classes.numbersGrid} container xs={12}>
-                  <Grid className={classes.numberContainer} item xs={6} md={4}>
-                    <DashboardNumber caption="Countries affected">
-                      {totals.affectedCountries}
-                    </DashboardNumber>
-                  </Grid>
-
-                  <Grid className={classes.numberContainer} item xs={6} md={4}>
-                    <DashboardNumber
-                      caption="Mortality rate"
-                      decimals={2}
-                      formattingFn={number => `${number}%`}
-                    >
-                      {(totals.deaths / totals.cases) * 100}
-                    </DashboardNumber>
-                  </Grid>
-
-                  <Grid className={classes.numberContainer} item xs={12} md={4}>
-                    <DashboardNumber
-                      caption="Tests administered"
-                      decimals={2}
-                      formattingFn={number => numeral(number).format('0,0')}
-                    >
-                      {totals.tests}
-                    </DashboardNumber>
-                  </Grid>
-                </Grid> */}
+                
 
                 {/* Country overview table */}
                 <DataTable
@@ -330,14 +302,7 @@ export default function Dashboard({ totals }) {
               </Paper>
             </Grid>
           </Grid>
-
           
-
-          {/* News Feed */}
-          {/* <Grid component="section" item xs={12}>
-            <DashboardHeading>News Feed</DashboardHeading>
-            <News />
-          </Grid> */}
         </Grid>
       </Container>
 
