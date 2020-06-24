@@ -6,7 +6,7 @@
       }
 
       .cls-1 {
-        stroke: #fafafa;
+        stroke: #fffff;
         stroke-miterlimit: 10;
         stroke-width: 12px;
       }
@@ -24,7 +24,7 @@
       }
     </style>
   </defs>
-  <title>covid19-confirmed_logo_1</title>
+  <title>covid19</title>
   <g id="Layer_2" data-name="Layer 2">
     <g id="Layer_1-2" data-name="Layer 1">
       <g>

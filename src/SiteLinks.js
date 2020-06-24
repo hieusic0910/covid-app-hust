@@ -23,18 +23,21 @@ const useStyles = makeStyles(() => ({
     textDecoration: 'none',
     '&:focus': {
       textDecoration: 'none',
+      
     },
     '&:hover': {
       textDecoration: 'none',
+      
     },
   },
 
   linkActive: {
     backgroundColor: blueGrey[900],
+   
   },
 
   linkIcon: {
-    color: linkColor,
+    color: linkColor
   },
 
   root: {
