@@ -419,9 +419,9 @@ export default function Map({ totals }) {
           component="h4"
           variant="h6"
         >
-          {currentCluster === 'active' && 'Active Cases'}
-          {currentCluster === 'deaths' && 'Deaths'}
-          {currentCluster === 'recovered' && 'Recoveries'}
+          {currentCluster === 'active' && 'SỐ CA HIỆN TẠI'}
+          {currentCluster === 'deaths' && 'TỬ VONG'}
+          {currentCluster === 'recovered' && 'HỒI PHỤC'}
         </Typography>
 
         <List className={classes.clusterList}>
