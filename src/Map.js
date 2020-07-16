@@ -143,7 +143,7 @@ export default function Map({ totals }) {
   const _flyToClickedPoint = ({
     latitude,
     longitude,
-    transitionDuration = 1000,
+    transitionDuration = 1500,
   }) => {
     setViewport({
       ...viewport,
@@ -296,9 +296,9 @@ export default function Map({ totals }) {
         dragRotate={false}
         height="100%"
         interactiveLayerIds={[clusterLayer.id]}
-        mapStyle="mapbox://styles/mapbox/dark-v9"
+        mapStyle="mapbox://styles/hieu62tc/ckcovp6dc0m591inmbk0dgvo5"
         mapboxApiAccessToken={process.env.REACT_APP_MAPBOX_GL_API_TOKEN}
-        maxZoom={5}
+        maxZoom={4}
         onClick={_onClick}
         onViewportChange={_onViewportChange}
         width="100%"
